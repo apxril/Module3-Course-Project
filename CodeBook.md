@@ -12,18 +12,18 @@ This md file describes the variables of the code inside `run_analysis.R`.
 *`subject_train`
 *`subject_test`
 
-#variables to merge to create one data set
+# variables to merge to create one data set
 * `x`
 *`y` 
 *`subject`
 
 
-#features
+# features
 *values consist of data from `x` and `y` 
 *names consists of data from `features.txt` 
 *`features_mean_std` consists of measurements on the mean and standard deviation for each measurement.
 
-#tidyData
+# tidyData
 * `Data1` contains the data from `x`, `y` and `subject` that was merged
 * `Data2` contains the average of the tidy data set of each variable for each subject and activity
 
